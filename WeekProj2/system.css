@@ -1,0 +1,30 @@
+ 
+.reset{
+    padding-inline: 70px;
+    padding-block: 30px;
+}
+:root{
+    --bg-color: #F5F7FA;
+    --btn-color: #4CAF4F;
+    --num-color: #4D4D4D;
+    --gray-shadow:#717171;
+
+}
+.btn{
+    width: fit-content;
+    height: fit-content;
+border-radius: 6px;
+Padding: 10px 20px;
+cursor: pointer;
+
+}
+.solid{
+    border: var(--bg-color) solid 1px;
+    color: white;
+    background-color: var(--btn-color);
+}
+.none {
+    border-color: var(--bg-color);
+    color: var(--btn-color);
+
+}
